@@ -39,6 +39,9 @@ nav {
 
 main {
     background-color: white;
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
 }
 
 main h1 {
@@ -49,6 +52,10 @@ main h1 {
 main h2 {
     color: var(--cor5);
     font-family: var(--font-android);
+}
+
+main img {
+    width: 100%;
 }
 
 footer {
