@@ -29,8 +29,28 @@ body {
     padding: 0px;
 }
 
+header {
+    background-image: linear-gradient(to bottom, var(--cor3), var(--cor5));
+    min-height: 150px;
+    text-align: center;
+    padding-top: 40px;
+}
+
 header > h1 {
-    font-family: white;
+    color: white;
+    font: 3em var(--font-destaque);
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.356);
+    margin-bottom: 20px;
+}
+
+header > p {
+    color: white;
+    font: 1.2em var(--font-padrao);
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.356);
+    max-width: 600px;
+    margin: auto;
+    padding: 0px 10px;
+
 }
 
 nav {
